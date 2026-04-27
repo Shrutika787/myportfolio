@@ -1,0 +1,253 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shrutika | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+
+            /* BACKGROUND IMAGE ADDED */
+            background: linear-gradient(rgba(39, 38, 38, 0.6), rgba(0, 0, 0, 0.6)),
+                url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+            background-size: cover;
+
+            text-align: center;
+        }
+
+            {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #fdf6ec, #f8ede3);
+            text-align: center;
+        }
+
+        header {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            color: #f5f5f5;
+        }
+
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+            object-fit: cover;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .menu-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 20px;
+            background-color: #d6c1a3;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .menu-btn:hover {
+            background-color: #bfa88a;
+        }
+
+
+        .content {
+            display: none;
+            margin: 20px auto;
+            width: 80%;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+
+        .content:target {
+            display: block;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #5c4b3b;
+        }
+
+
+        .edu-item {
+            width: 80%;
+            margin: 0 auto 25px auto;
+            text-align: left;
+        }
+
+        .edu-line {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .edu-line span {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .edu-desc {
+            font-size: 16px;
+            margin-top: 8px;
+            color: #6b5b4b;
+        }
+
+
+        ul {
+            text-align: left;
+            display: inline-block;
+            margin: 0 auto;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            color: #f0f0ef;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SHRUTIKA GHUGE</h1>
+
+
+        <img src="MY PORTFOLIO.jpeg" class="profile-pic">
+
+        <p>Aspiring Developer | Creative Thinker</p>
+    </header>
+
+    <div class="menu">
+        <a href="#about" class="menu-btn">About</a>
+        <a href="#education" class="menu-btn">Education</a>
+        <a href="#skills" class="menu-btn">Skills</a>
+        <a href="#projects" class="menu-btn">Projects</a>
+        <a href="#achievements" class="menu-btn">Achievements</a>
+        <a href="#hobbies" class="menu-btn">Hobbies</a>
+        <a href="#contact" class="menu-btn">Contact</a>
+    </div>
+
+
+    <div id="about" class="content">
+        <h2>About Me</h2>
+        <p>Hello! I am Shrutika , a passionate first-year student who loves exploring technology and creativity. I enjoy
+            building small projects and continuously improving my programming skills.</p>
+        <p>I believe in learning by doing and turning ideas into meaningful digital experiences.</p>
+    </div>
+
+
+    <div id="education" class="content">
+        <h2>Education</h2>
+
+        <div class="edu-item">
+            <div class="edu-line">
+                <span>MIT Academy Of Engineering</span>
+                <span>2025 - Present</span>
+            </div>
+            <div class="edu-desc">Bachelor's Degree (First Year)</div>
+        </div>
+
+        <div class="edu-item">
+            <div class="edu-line">
+                <span>Lokmata Ahilyabai Holkar Jr. College Hingoli</span>
+                <span>2023 - 2024</span>
+            </div>
+            <div class="edu-desc">Higher Secondary Education (12th)</div>
+        </div>
+
+        <div class="edu-item">
+            <div class="edu-line">
+                <span>A.B.M English School</span>
+                <span>2021 - 2022</span>
+            </div>
+            <div class="edu-desc">Secondary Education (10th)</div>
+        </div>
+    </div>
+
+
+    <div id="skills" class="content">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>Python Programming</li>
+            <li>C Programming</li>
+            <li>Basic Problem Solving & Logical Thinking</li>
+        </ul>
+    </div>
+
+
+    <div id="projects" class="content">
+        <h2>Projects</h2>
+
+        <h3>C Programming Mini Calculator</h3>
+        <p>Developed a calculator program supporting 10+ operations including arithmetic, power, and percentage.</p>
+
+        <h3>Student Result System</h3>
+        <p>A basic Python program to calculate and display student results.</p>
+        <h3>Currently Working on Project</h3>
+        <p>
+            Currently working on a chatbot for the student section of my college.
+            This chatbot will help students solve queries related to academics,
+            notices, and other college information.
+        </p>
+    </div>
+
+
+    <div id="achievements" class="content">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Completed mini programming projects successfully.</li>
+            <li>Recognized for teamwork and presentation skills.</li>
+            <li>Continuously improving coding skills through practice.</li>
+        </ul>
+    </div>
+
+
+    <div id="hobbies" class="content">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Exploring new technologies and learning new skills.</li>
+            <li>Participating in cultural and college events.</li>
+            <li>Listening to music and creative content.</li>
+            <li>Designing and presenting creative ideas.</li>
+        </ul>
+    </div>
+
+
+    <div id="contact" class="content">
+        <h2>Contact</h2>
+        <p style="text-align: center;">
+        <p>Email: shrutikaghuge787@gmail.com</p>
+        <p>Phone: 8767850499</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/shrutika-ghuge-256304382"
+                target="_blank">linkdin.com/in/shrutika-ghuge</a></p>
+        <p>GitHub: <a href="https://github.com/" target="_blank">github.com/shrutika787</a></p>
+        </p>
+    </div>
+
+    <footer>
+        © 2026 Shrutika | Designed elegantly
+    </footer>
+
+</body>
+
+</html>
